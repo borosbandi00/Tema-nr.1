@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title>Formular BB</title></head>
+<body bgcolor="Azure">
+<h1><mark>Completati acest formular</mark></h1><br>
+<form>
+    <fieldset>
+        <legend><b>Datele personale contractorului:</b></legend>
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume"><br><br>
+        <label for="prenume">Prenume:</label>
+        <input type="text" id="prenume" name="prenume"><br><br>
+        <label for="firmei">Numele firmei:</label>
+        <input type="text" id="firmei" name="firmei"><br><br>
+        <label for="adresa">Sediul firmei:</label>
+        <input type="text" id="adresa" name="adresa" placeholder="Ap.;Etaj;Bloc;Str.;Oras;">
+    </fieldset>
+    <fieldset>
+        <legend><b>Datele de contact:</b></legend>
+        <label for="tel">Numarul de telefon:</label>
+        <input type="tel" id="tel" name="tel" placeholder="075-2673-347" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"><br><br>
+        <label for="email">Adresa de email:</label>
+        <input type="email" id="email" name="email" placeholder="rares_bogdan22@yahoo.com">
+        </fieldset><br><br>
+        <label for="masini">Selectati un mod de transport:</label><br>
+        <select id="masini" name="masini" size="3">
+        <option value="" disabled selected>Selectati un mod de transport:</option>
+        <option value="duba">Duba</option>
+        <option value="Camion 3,5t">Camion 3,5t</option>
+        <option value="camion 7,5t">Camion 7,5t</option>
+        <option value="camion 24t">Camion 24t</option> 
+        </select><br>
+        <label for="masini">Selectati tipul de transport:</label><br>
+        <select id="tip" name="tip" size="3">
+        <option value="" disabled selected>Selectati tipul de transport:</option>
+        <option value="national">National</option>
+        <option value="international">International</option> 
+        </select><br>
+        <p>Tipul marfii:</p>
+        <label for="tip">Frigorific</label>
+        <input type="checkbox" id="tip" name="tip">
+        <label for="tip">clasa ADR</label>
+        <input type="checkbox" id="tip" name="tip">
+        <label for="tip">Gabarit</label>
+        <input type="checkbox" id="tip" name="tip">
+        <label for="tip">Altul</label>
+        <input type="checkbox" id="tip" name="tip"><br>
+    <label for="adresa">Adresa de livrare:</label>
+    <input type="text" id="adresa" name="adresa">
+</form><br>
+<h3><b>Nr. de telefon al firmei:0758630124</b></h3>
+<p>Fiecare contract va fi confirmat prin telefon cu colegii nostri!</p>
+<hr>
+<footer>
+    <h2>Termeni si conditii:</h2>
+    <p>Toate masinile sunt dotate cu gps si sunt monitorizate de echipa noastra!</p>
+    <p>Pentru plata aveti la dispozitie 10 zile!</p>
+    <p>Oferim si asteptam seriozitate!</p>
+</footer>
+</body>
+</html>
