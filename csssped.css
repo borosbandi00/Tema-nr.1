@@ -1,0 +1,26 @@
+.a {
+    background-color: blueviolet;
+}
+ .b {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+body {
+    background-image:url("transportlogistik_.png");
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(218, 199, 235);
+}
+table {
+    background-color: rgb(184, 137, 201);
+}
+div {
+    width: 300px;
+    height:200px;
+    padding:15px;
+    background-color: rgb(186, 141, 229);
+   align-content: center;
+   box: shadow 20px; color: rgb(25, 8, 41);
+}
+.d {
+    font-weight: bold;
+}
