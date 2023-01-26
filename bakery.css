@@ -1,0 +1,50 @@
+header {
+ font-family: Arial, Helvetica, sans-serif;   
+}
+body{
+    background-image:url(leaf.jpg);
+   
+}
+.n{
+    column-count:2;
+    column-rule:5px white;
+    margin-left:30px;
+}
+.b {
+    font-family: 'Courier New';
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 5px #b8b8d0;
+}
+nav{
+    text-align: right;
+}
+a:link {
+    color: rgb(216, 214, 214);  
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(102, 187, 102);
+}
+.w{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    text-align: center;
+}
+p{
+    color: azure;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+summary{
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+ul{
+    color: beige;
+}
+img:hover{
+    t
+}
